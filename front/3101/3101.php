@@ -21,8 +21,7 @@ $less->compileFile('less/3101.less', 'css/3101.css');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Layout</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo $url_path . '/css/3101.css'; ?>">
     </style>
 </head>
@@ -38,7 +37,7 @@ $less->compileFile('less/3101.less', 'css/3101.css');
                     </div>
                     <div class="blog-content">
                         <div class="blog-date">
-                            <i class="fas fa-calendar-alt"></i> January 8, 2024
+                           <img src="./css/calendar3.svg" alt="" > January 8, 2024
                         </div>
                         <h5 class="blog-title">How To Clean Your PC from Viruses 4 Ways to Get Clean</h5>
                         <p class="blog-excerpt">Lorem ipsum dolor sit amet, consec tetur eli nec ut viverra eros
@@ -56,7 +55,7 @@ $less->compileFile('less/3101.less', 'css/3101.css');
                     </div>
                     <div class="blog-content">
                         <div class="blog-date">
-                            <i class="fas fa-calendar-alt"></i> January 5, 2024
+                           <img src="./css/calendar3.svg" alt=""> January 5, 2024
                         </div>
                         <h5 class="blog-title">What To Beware Of When Fixing Your Device By Yourself</h5>
                         <p class="blog-excerpt">Lorem ipsum dolor sit amet, consec tetur eli nec ut viverra eros
@@ -72,7 +71,7 @@ $less->compileFile('less/3101.less', 'css/3101.css');
                     </div>
                     <div class="blog-content">
                         <div class="blog-date">
-                            <i class="fas fa-calendar-alt"></i> January 9, 2024
+                           <img src="./css/calendar3.svg" alt=""> January 9, 2024
                         </div>
                         <h5 class="blog-title">What Could 5g Change About The Way We Use Technology?</h5>
                         <p class="blog-excerpt">Lorem ipsum dolor sit amet, consec tetur eli nec ut viverra eros
@@ -82,8 +81,8 @@ $less->compileFile('less/3101.less', 'css/3101.css');
                 </div>
             </div>
         </div>
-        <nav class="mt-4">
-    <ul class="pagination justify-content-center">
+        <nav class="mt-4 text-center">
+    <ul class="pagination">
         <li class="page-item">
             <a class="page-link" href="#" aria-label="Previous">
                 <span aria-hidden="true"><</span> 
@@ -109,7 +108,9 @@ $less->compileFile('less/3101.less', 'css/3101.css');
 
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap-icons.css">
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
 </body>
 
 </html>

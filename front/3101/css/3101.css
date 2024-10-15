@@ -14,20 +14,20 @@ body {
 }
 .blog-image img {
   width: 100%;
-  height: 200px;
+  height: 250px;
   object-fit: cover;
 }
 .blog-content {
-  padding: 20px;
+  padding: 30px;
 }
 .blog-date {
   color: #333;
   font-size: 0.9rem;
   margin-bottom: 5px;
 }
-.blog-date i {
+.blog-date img {
   margin-right: 5px;
-  color: #FF5722;
+  fill: #FF5722;
 }
 .blog-title {
   font-size: 1.25rem;
