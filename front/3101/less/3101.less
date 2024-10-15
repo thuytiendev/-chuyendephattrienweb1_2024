@@ -1,0 +1,88 @@
+body {
+    background-color: #fff;
+    /* Màu nền trắng */
+    color: #333;
+}
+
+.blog-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.blog-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.blog-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.blog-content {
+    padding: 20px;
+}
+
+.blog-date {
+    color: #333;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.blog-date i {
+    margin-right: 5px;
+    color: #FF5722;
+}
+
+.blog-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.blog-excerpt {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-left: -13px;
+}
+
+.btn-link:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+.pagination {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination .page-link {
+    color: #333;
+    border: none;
+    font-weight: bold;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #FF5722;
+    border-color: #FF5722;
+    color: white;
+}
+
+.pagination .page-link:hover {
+    background-color: #e64a19;
+    color: white;
+}
+
+.pagination .page-item {
+    margin: 0 5px;
+}

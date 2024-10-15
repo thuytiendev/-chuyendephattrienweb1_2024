@@ -1,0 +1,127 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.search-bar .form-group {
+    margin-right: 15px;
+    flex: 1;
+}
+
+.find-btn {
+    background-color: #000;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    padding: 6px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.find-btn:hover {
+    background-color: #333;
+}
+
+.view-options {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.view-options p {
+    margin-right: 10px;
+    font-weight: 600;
+    font-family: "Crimson Pro", serif;
+}
+
+.view-options li {
+    margin-right: 15px;
+    color: #000000;
+    cursor: pointer;
+    font-family: "Crimson Pro", serif;
+}
+
+.view-options li:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.event-details h4 {
+    font-family: "Nunito Sans", sans-serif;  
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.event-meta {
+    margin-top: 10px;
+}
+
+.event-meta span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.event-meta i {
+    margin-right: 8px;
+    color: black;
+}
+
+.event-description {
+    margin-top: 15px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.event-image {
+    width: 100%;
+    height: auto;
+}
+
+.thang {
+    font-weight: bold;
+}
+
+.a {
+    font-family: "Crimson Pro", serif;
+}
+
+@media (max-width: 768px) {
+    .search-bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search-bar .form-group {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .find-btn {
+        width: 100%;
+    }
+
+    .view-options {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
